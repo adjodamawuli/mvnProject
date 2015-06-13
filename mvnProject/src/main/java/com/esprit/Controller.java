@@ -3,6 +3,7 @@ package com.esprit;
 public class Controller {
 	private String nom;
 	private String prenom;
+	private Integer age;
 
 	public Controller() {
 		// TODO Auto-generated constructor stub
@@ -26,6 +27,14 @@ public class Controller {
 
 	public void setPrenom(String prenom) {
 		this.prenom = prenom;
+	}
+
+	public Integer getAge() {
+		return age;
+	}
+
+	public void setAge(Integer age) {
+		this.age = age;
 	}
 
 }
